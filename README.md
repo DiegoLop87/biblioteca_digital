@@ -23,7 +23,7 @@ Demostrar el desacoplamiento de componentes visuales y lógica de negocio en Flu
 
 ##  Estructura del Proyecto
 
-```text
+
 lib/
 ├── data/
 │   └── books_data.dart        # Colección de objetos Book reales
@@ -41,7 +41,7 @@ lib/
 │   └── favorite_button.dart   # Botón reactivo conectado al Provider
 └── main.dart                  # Punto de entrada y ChangeNotifierProvider
 
-´´´
+
 ## Explicación breve del Provider implementado.
 
 Se definió la clase BookProvider, la cual extiende de ChangeNotifier. Mantiene el estado de la lista de favoritos (_favoriteBooks) y notifica a los suscriptores invocando el método notifyListeners().
