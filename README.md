@@ -23,7 +23,7 @@ Demostrar el desacoplamiento de componentes visuales y lógica de negocio en Flu
 
 ##  Estructura del Proyecto
 
-
+´´´text
 lib/
 ├── data/
 │   └── books_data.dart        # Colección de objetos Book reales
