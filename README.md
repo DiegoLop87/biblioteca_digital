@@ -41,7 +41,7 @@ lib/
 │   └── favorite_button.dart   # Botón reactivo conectado al Provider
 └── main.dart                  # Punto de entrada y ChangeNotifierProvider
 
-
+´´´
 ## Explicación breve del Provider implementado.
 
 Se definió la clase BookProvider, la cual extiende de ChangeNotifier. Mantiene el estado de la lista de favoritos (_favoriteBooks) y notifica a los suscriptores invocando el método notifyListeners().
