@@ -1,17 +1,13 @@
-# biblioteca_digital
+# Nombre del proyecto:
+BIBLIOTECA DIGITAL (SD LIBRARY)
 
-A new Flutter project.
+# Descripción de la Aplicación
 
-## Getting Started
+Aplicación móvil desarrollada en Flutter para la consulta e interacción con un catálogo de libros reales. El proyecto demuestra una arquitectura modular, desarrollo de widgets personalizados reutilizables y gestión de estado reactivo mediante el patrón Provider.
 
-This project is a starting point for a Flutter application.
+# Objetivo
 
-A few resources to get you started if this is your first Flutter project:
+Demostrar el desacoplamiento de componentes visuales y lógica de negocio en Flutter, garantizando que los cambios de estado (guardar o remover libros de favoritos) se reflejen automáticamente en múltiples pantallas de la aplicación a través de Provider.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
