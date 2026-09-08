@@ -81,7 +81,9 @@ flutter run
 <img width="283" height="608" alt="imagen" src="https://github.com/user-attachments/assets/846f1143-891a-495f-b58e-c69a81f51900" />
 
 ## Captura o evidencia de la funcionalidad administrada mediante Provider.
-Se da tap en la etiqueta y como se observa se marca de color café y de la misma manera se agrega a la pagina o screen de favoritos o lista de lectura
+Se da tap en la etiqueta y como se observa se marca de color café y de la misma manera se agrega a la pagina o screen de favoritos o lista de lectura.
+
+
 <img width="291" height="605" alt="imagen" src="https://github.com/user-attachments/assets/f8a702fa-86f9-4c57-a897-c1d1d2a0639c" /> <img width="283" height="611" alt="imagen" src="https://github.com/user-attachments/assets/3c149632-954a-4075-a7c6-cdcc4a11d1ff" />
 
 ## Datos del Autor
