@@ -40,7 +40,7 @@ lib/
 │   ├── book_card.dart         # Componente modular de tarjeta literaria
 │   └── favorite_button.dart   # Botón reactivo conectado al Provider
 └── main.dart                  # Punto de entrada y ChangeNotifierProvider
-
+```
 
 ## Explicación breve del Provider implementado.
 
@@ -51,5 +51,46 @@ Se definió la clase BookProvider, la cual extiende de ChangeNotifier. Mantiene 
 * BookCard (lib/widgets/book_card.dart): Encapsula la maquetación visual de cada libro en el catálogo (portada, título, autor, chips y botón de favorito).
 
 * FavoriteButton (lib/widgets/favorite_button.dart): Botón encapsulado que consume BookProvider, cambiando el ícono y lanzando notificaciones emergentes (SnackBar) al hacer tap.
+
+## Instrucciones básicas para ejecutar el proyecto.
+
+1. Clonar este repositorio:
+git clone https://github.com/DiegoLop87/biblioteca_digital.git
+
+2. Acceder al directorio del proyecto:
+cd biblioteca_digital
+
+3. Descargar dependencias:
+flutter pub get
+
+4. Ejecutar la aplicación en un emulador Android o dispositivo físico:
+flutter run
+
+## Capturas de las principales pantallas.
+
+1. Catálogo Principal (HomeScreen)
+<img width="290" height="611" alt="imagen" src="https://github.com/user-attachments/assets/8dec3344-ad47-4564-8aef-c98731942e1a" />
+
+2. Detalle del Libro (DetailScreen)
+<img width="283" height="618" alt="imagen" src="https://github.com/user-attachments/assets/4df35eae-eb31-4daa-9f0f-f684970ee48c" />
+  
+3. Guardados/Favoritos (FavoritesScreen)
+<img width="293" height="613" alt="imagen" src="https://github.com/user-attachments/assets/8cf05502-fa39-46c4-b706-3374bda09f78" />
+  
+4.  Perfil Lector (ProfileScreen)
+<img width="283" height="608" alt="imagen" src="https://github.com/user-attachments/assets/846f1143-891a-495f-b58e-c69a81f51900" />
+
+## Captura o evidencia de la funcionalidad administrada mediante Provider.
+Se da tap en la etiqueta y como se observa se marca de color café y de la misma manera se agrega a la pagina o screen de favoritos o lista de lectura
+<img width="291" height="605" alt="imagen" src="https://github.com/user-attachments/assets/f8a702fa-86f9-4c57-a897-c1d1d2a0639c" /> <img width="283" height="611" alt="imagen" src="https://github.com/user-attachments/assets/3c149632-954a-4075-a7c6-cdcc4a11d1ff" />
+
+## Datos del Autor
+* **Estudiante:** Diego Javier López Zambrano
+
+
+
+
+
+
 
 
